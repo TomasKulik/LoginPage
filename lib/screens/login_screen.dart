@@ -129,7 +129,7 @@ class _LoginScreenState extends State<LoginScreen> {
       padding: EdgeInsets.symmetric(vertical: 20.0),
       width: double.infinity,
       child: RaisedButton(
-        color: Color(0xFFF5AF19),
+        color: Colors.amber[800],
         elevation: 5.0,
         padding: EdgeInsets.all(10.0),
         shape: RoundedRectangleBorder(
@@ -176,7 +176,7 @@ class _LoginScreenState extends State<LoginScreen> {
         height: 60.0,
         width: 60.0,
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: Colors.amber[700],
           shape: BoxShape.circle,
           boxShadow: [
             BoxShadow(
